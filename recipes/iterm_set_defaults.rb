@@ -14,8 +14,8 @@ execute "set iterm default terminal settings" do
     $
   user WS_USER
 end
-  
-execute "use the darm background" do
+
+execute "use the dark background" do
    command %$defaults write ~/Library/Preferences/net.sourceforge.iTerm Bookmarks -dict-add Entries  ' (
                 {
             Data =             {
